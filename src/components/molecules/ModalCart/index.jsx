@@ -3,7 +3,6 @@ import TextHeader from "../../atoms/TextHeader";
 import { Modal, Fade } from "@material-ui/core";
 import { GroupButton, StyledModal } from "./styles";
 import Button from "../../atoms/Button";
-import { deleteProduct, getProducts } from "../../../helper/products/index";
 import { useHistory } from "react-router-dom";
 
 const ModalCart = ({ currentProductId }) => {

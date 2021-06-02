@@ -3,9 +3,8 @@ import CartInfo from "../../components/molecules/CartInfo";
 import CartContainer from "../../components/organisms/CardContainer";
 import CardCart from "../../components/molecules/CardCart";
 import { useState, useEffect } from "react";
-import { CardWrap, CartModal, EmptyMessage } from "./styles";
+import { CardWrap, EmptyMessage } from "./styles";
 import { useHistory } from "react-router-dom";
-import { set } from "react-hook-form";
 
 const Cart = () => {
   const [isFinished, setIsFinished] = useState(false);

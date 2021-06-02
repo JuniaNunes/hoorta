@@ -2,8 +2,6 @@ import { useData } from "../../../providers/UserContext";
 import CardStyled from "./styles";
 import Woman from "../../../assets/images/perfil/imgPerfil.jpg";
 import Text from "../../atoms/Text";
-import Icon from "../../atoms/Icon";
-import IconEdit from "../../../assets/images/icons/editPencil.svg";
 import ModalUser from "../../organisms/ModalUser";
 
 const CardProfile = () => {

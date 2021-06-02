@@ -9,8 +9,6 @@ import { registerSchema } from "../../../helper/FormValidation";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useHistory } from "react-router-dom";
-// ContextAPI
-import { useData } from "../../../providers/UserContext";
 // Components
 import Input from "../../atoms/Input";
 import Button from "../../atoms/Button";

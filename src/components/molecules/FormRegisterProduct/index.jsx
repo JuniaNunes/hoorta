@@ -1,5 +1,5 @@
 // React
-import { createRef, useEffect } from "react";
+import { createRef } from "react";
 // API
 import API from "../../../services/api";
 // Helpers

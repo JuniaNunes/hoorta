@@ -1,12 +1,7 @@
 import { useState } from "react";
 import TextHeader from "../../atoms/TextHeader";
 import { Modal, Fade } from "@material-ui/core";
-import { EditButton, EditButton2, StyledModal } from "./styles";
-import Button from "../../atoms/Button";
-import { deleteProduct, getProducts } from "../../../helper/products/index";
-import API from "../../../services/api";
-import { useProducts } from "../../../providers/ProductsContext";
-import { useData } from "../../../providers/UserContext";
+import { EditButton2, StyledModal } from "./styles";
 import FormUpdateProduct from "../FormUpdateProduct";
 import Icon from "../../atoms/Icon";
 import Close from "../../../assets/images/icons/close.svg";
@@ -19,10 +14,6 @@ const ModalEditProduct = ({
   productDescription,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-
-  const { setProductsData } = useProducts();
-
-  const { userData } = useData();
 
   const toggleModal = () => setIsOpen(!isOpen);
 

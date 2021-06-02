@@ -4,20 +4,15 @@ import { useForm } from "react-hook-form";
 import { updateUserSchema } from "../../../helper/FormValidation";
 import { patchStore } from "../../../helper/stores";
 import { useStores } from "../../../providers/StoresContext";
-import { useData } from "../../../providers/UserContext";
+
 import API from "../../../services/api";
 import Button from "../../atoms/Button";
 import Input from "../../atoms/Input";
 
 const FormUpdateStore = () => {
   const ref = createRef();
-  const {
-    setStoreData,
-    listStores,
-    setListStores,
-    storeData,
-    getAllStores,
-  } = useStores();
+  const { setStoreData, listStores, setListStores, storeData, getAllStores } =
+    useStores();
   const {
     register,
     handleSubmit,

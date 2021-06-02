@@ -7,11 +7,9 @@ import { useData } from "../../../providers/UserContext";
 //Dependencias
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useHistory } from "react-router";
 //Helpers
 import { registerStoreSchema } from "../../../helper/FormValidation";
 import { patchStore, getOneStore } from "../../../helper/stores";
-import { patchUser } from "../../../helper/user";
 //Components
 import Input from "../../atoms/Input";
 import TextArea from "../../atoms/TextArea";
@@ -24,7 +22,6 @@ const FormEditStore = ({ currentStoreId, toggleModal }) => {
     const sessionToken = localStorage.getItem("token") || "";
     return JSON.parse(sessionToken);
   });
-  const history = useHistory();
   const { userData } = useData();
   const { storeData, setStoreData } = useStores();
 

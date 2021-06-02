@@ -12,14 +12,7 @@ import { Link } from "react-router-dom";
 import ratingIcon from "../../../assets/images/icons/rating.svg";
 
 const StoreCard = ({ store }) => {
-  const {
-    userId,
-    id,
-    businessName,
-    registeredName,
-    description,
-    rating,
-  } = store;
+  const { id, businessName, description } = store;
 
   return (
     <CardContainer>
