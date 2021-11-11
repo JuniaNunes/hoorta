@@ -1,8 +1,7 @@
 <h1 align="center">
-  <a href="hoorta-ten.vercel.app">Hoorta</a>
+  <a href="https://hoorta-ten.vercel.app">Hoorta</a>
 </h1>
 <p align="center">Hoorta foi criado pensando em trazer até a sua casa comidas frescas e de produtores locais.</p>
-
 
 <h2>Requisitos</h2>
 <p>Foi produzido utilizando essa <a href="https://hoorta-api-doc.vercel.app/">API</a> que nós mesmo criamos, seguindo alguns requisitos:</p>
